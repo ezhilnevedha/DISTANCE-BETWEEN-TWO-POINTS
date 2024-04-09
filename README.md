@@ -1,3 +1,5 @@
+## NAME: EZHIL NEVEDHA.K
+## REGISTER NUMBER: 212223230055
 # DISTANCE-BETWEEN-TWO-POINTS
 
 ## AIM:
@@ -14,8 +16,14 @@ Using the print function, display the distance between two points.
 ### Step 5: 
 End the program
 ### PROGRAM:
-
+```
+import math
+l1=[4,2]
+l2=[10,6]
+d=math.sqrt(((l2[0]-l1[0])**2)+((l2[1]-l1[1])**2))
+print("{:.2f}".format(d))
+```
 ## OUTPUT:
-
+![alt text](<Screenshot 2024-03-09 093954.png>)
 ### RESULT:
 Thus the program has been executed successfully.
